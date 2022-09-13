@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".ForegroundAndBoundService.ForegroundAndBoundService">
+
+    <Button
+        android:onClick="StartForeGroundServiceAndBoundServicee"
+        android:textAllCaps="false"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:textColor="#FF5722"
+        android:backgroundTint="#3F51B5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Foreground and Bound Service"/>
+    <Button
+        android:onClick="StopForeGroundServicee"
+        android:textAllCaps="false"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:textColor="#FF5722"
+        android:backgroundTint="#3F51B5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Foreground Service"/>
+
+    <Button
+        android:onClick="StopBoundGroundServicee"
+        android:textAllCaps="false"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:textColor="#FF5722"
+        android:backgroundTint="#3F51B5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Bound Service"/>
+
+
+
+
+</LinearLayout>
